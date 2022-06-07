@@ -31,14 +31,6 @@ function tab = nma_simplex(A,b,c,debug)
 % 
 %  [ A | b  ] 
 %  [ c | J  ] 
-% 
-% UPDATES 
-% 
-% Version May 12,  2016   original 
-% Version June 17, 2020   updated to print the final solution vector 
-%                         to make it easier to read. 
-% by Nasser M. Abbasi 
-% Free for use. 
  
 validate_input(A,b,c); 
  
